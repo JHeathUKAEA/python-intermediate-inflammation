@@ -41,16 +41,38 @@ def load_json(filename):
 
 
 def daily_mean(data):
-    """Calculate the daily mean of a 2D inflammation data array."""
+    """Calculate the daily mean of a 2D inflammation data array.
+    Uses numpy's built in mean function
+
+    :param data: numeric array
+    
+    :returns: mean of data
+    
+    """
     return np.mean(data, axis=0)
 
 
 def daily_max(data):
-    """Calculate the daily max of a 2D inflammation data array."""
+    """Calculate the daily max of a 2D inflammation data array.
+    Uses numpy's built in max function
+
+    :param data: numeric array
+    
+    :returns: max value of data
+    
+    
+    """
     return np.max(data, axis=0)
 
 
 def daily_min(data):
-    """Calculate the daily min of a 2D inflammation data array."""
+    """Calculate the daily min of a 2D inflammation data array.
+    Uses numpy's built in min function
+
+    :param data: numeric array
+    
+    :returns: min of data
+    
+    """
     return np.min(data, axis=0)
 
