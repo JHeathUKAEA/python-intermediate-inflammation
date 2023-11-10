@@ -44,9 +44,9 @@ def daily_mean(data):
     """Calculate the daily mean of a 2D inflammation data array.
     Uses numpy's built in mean function
 
-    :param data: numeric array
+    :param data: numeric array 2D of patients infammation values over several days.
     
-    :returns: mean of data
+    :returns: 1D array of mean values for each day
     
     """
     return np.mean(data, axis=0)
@@ -56,9 +56,9 @@ def daily_max(data):
     """Calculate the daily max of a 2D inflammation data array.
     Uses numpy's built in max function
 
-    :param data: numeric array
+    :param data: numeric array 2D of patients infammation values over several days.
     
-    :returns: max value of data
+    :returns: 1D array of max values for each day
     
     
     """
@@ -69,9 +69,9 @@ def daily_min(data):
     """Calculate the daily min of a 2D inflammation data array.
     Uses numpy's built in min function
 
-    :param data: numeric array
+    :param data: numeric array 2D of patients infammation values over several days.
     
-    :returns: min of data
+    :returns: 1D array of min values for each day
     
     """
     return np.min(data, axis=0)
