@@ -1,5 +1,5 @@
 astroid==3.0.1
-contourpy==1.2.0
+#contourpy==1.2.0 #try runnig without
 coverage==7.3.2
 cycler==0.12.1
 dill==0.3.7
